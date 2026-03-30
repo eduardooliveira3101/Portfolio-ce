@@ -1,0 +1,56 @@
+#about {
+  padding: 1em 5em;
+}
+
+#about .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#name {
+  font-size: 2em;
+  margin-bottom: 0.3em;
+  color: #ffffff;
+}
+
+#avatar {
+  border-radius: 100%;
+  border-right: 2px solid #4b4bcf;
+  width: 11em;
+  margin-bottom: 0.8em;
+  padding: 1em;
+}
+
+#about strong {
+  color: #4b4bcf;
+}
+
+#about span {
+  font-weight: 700;
+  font-size: 1em;
+
+  letter-spacing: 0.1em;
+}
+
+#about p {
+  padding-top: 1.3em;
+  line-height: 1.8;
+  text-align: justify;
+  max-width: 45em;
+}
+
+#contact {
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid #4b4bcf;
+  padding: 0.8em 2em;
+  border-radius: 5em;
+  transition: 300ms;
+  margin-top: 1em;
+}
+
+#contact:hover {
+  background-color: #4b4bcf;
+  font-weight: 700;
+}
