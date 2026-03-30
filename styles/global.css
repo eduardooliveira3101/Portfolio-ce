@@ -18,5 +18,14 @@ body {
 }
 
 section + section {
-  margin-top: 10em;
+  margin-top: 7em;
+}
+
+li {
+  list-style: none;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1em;
 }

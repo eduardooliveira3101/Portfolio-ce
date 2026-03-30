@@ -1,0 +1,35 @@
+#education {
+  margin-inline: auto;
+  max-width: 75em;
+}
+
+.formation ul {
+  display: flex;
+  gap: 3em;
+  justify-content: center;
+}
+
+.list-formation {
+  display: flex;
+  flex-direction: column;
+  width: 20em;
+  height: 8em;
+  gap: 0.8em;
+  background-color: #0400229f;
+  padding: 1em;
+  border-radius: 1em;
+  position: relative;
+}
+
+.list-formation::before {
+  content: "";
+  display: block;
+  width: 5px;
+  height: 15px;
+  background: url(../assets/icons/decorador.svg) no-repeat center;
+  position: absolute;
+  top: 23px;
+  left: -5px;
+
+  z-index: -1;
+}

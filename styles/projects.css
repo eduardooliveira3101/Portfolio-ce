@@ -1,0 +1,24 @@
+#projects {
+  margin-inline: auto;
+  max-width: 75em;
+}
+
+.project-wrapper {
+  display: flex;
+  gap: 1em;
+  padding: 1em;
+  background-color: #0400229f;
+  border-radius: 1em;
+}
+
+.project-wrapper + .project-wrapper {
+  margin-top: 1em;
+}
+
+.project-wrapper h3 {
+  margin-bottom: 1em;
+}
+
+.project-img {
+  height: 10em;
+}

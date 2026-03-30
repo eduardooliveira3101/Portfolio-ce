@@ -1,0 +1,19 @@
+#skills {
+  margin-inline: auto;
+  max-width: 75em;
+}
+
+.competence ul {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+
+.list-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+  background-color: #4b4bcf;
+  border-radius: 1em;
+  padding: 1em;
+}
