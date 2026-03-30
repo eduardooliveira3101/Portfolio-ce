@@ -24,7 +24,6 @@ header a {
 
 header a:hover {
   border-bottom: 1px solid #5d5dbe;
-  font-weight: 500;
 }
 
 header h1 {
