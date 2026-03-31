@@ -5,6 +5,8 @@
 
 .project-wrapper {
   display: flex;
+  max-width: 60em;
+  margin: 0 auto;
   gap: 1em;
   padding: 1em;
   background-color: #0400229f;
@@ -20,5 +22,39 @@
 }
 
 .project-img {
-  height: 10em;
+  height: 12em;
+  width: 20em;
+  object-fit: cover;
+  border-radius: 1em;
+}
+
+.wrapper-project-info span {
+  display: block;
+  margin-top: 5em;
+  font-size: 0.8em;
+}
+
+.project-wrapper {
+  transition: 400ms;
+}
+
+.project-wrapper:hover {
+  background-color: #5d5dbe9c;
+  cursor: pointer;
+}
+
+.wrapper-project-info p {
+  line-height: 1.9;
+  font-size: 1em;
+}
+
+.link-project + .link-project {
+  display: flex;
+  margin-top: 1em;
+}
+
+.link-project h3,
+p,
+span {
+  color: #fff;
 }

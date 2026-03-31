@@ -1,8 +1,28 @@
 footer {
-  background-color: black;
+  display: flex;
+  background-color: #000000;
   margin-top: 2em;
   height: 5em;
-  display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+
+  padding: 3.5em;
+}
+
+.list-email + .list-email {
+  margin-top: 0.5em;
+}
+
+footer p {
+  margin-bottom: 1em;
+}
+
+footer a {
+  color: white;
+  font-weight: 100;
+  transition: 400ms;
+}
+
+footer a:hover {
+  border-bottom: 1px solid #5d5dbe;
 }

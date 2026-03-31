@@ -10,15 +10,15 @@
 
 body {
   font-family: var(--font-family);
-  background-image: linear-gradient(to bottom, black 80%, rgb(26, 26, 26));
+  background-image: linear-gradient(to bottom, #000000 80%, #1a1a1a);
   background-repeat: no-repeat;
-  background-color: rgb(26, 26, 26);
+  background-color: #1a1a1a;
   height: 100vh;
-  color: rgba(255, 255, 255, 0.849);
+  color: #ffffffd8;
 }
 
 section + section {
-  margin-top: 7em;
+  margin-top: 6em;
 }
 
 li {
@@ -28,4 +28,12 @@ li {
 .title {
   text-align: center;
   margin-bottom: 1em;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
 }
