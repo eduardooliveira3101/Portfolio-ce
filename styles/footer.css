@@ -26,3 +26,9 @@ footer a {
 footer a:hover {
   border-bottom: 1px solid #5d5dbe;
 }
+
+@media (min-width: 23.438em) and (max-width: 43.75em) {
+  footer .create {
+    display: none;
+  }
+}
