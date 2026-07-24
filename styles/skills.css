@@ -4,7 +4,8 @@
 }
 
 .competence ul {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 1em;
   justify-content: center;
 }
@@ -12,8 +13,18 @@
 .list-skills {
   display: flex;
   flex-direction: column;
-  gap: 0.3em;
   background-color: #4b4bcf;
   border-radius: 1em;
   padding: 1em;
+  text-align: center;
+}
+
+@media (min-width: 23.438em) and (max-width: 43.75em) {
+  .competence ul {
+    display: grid;
+    width: 20em;
+    grid-template-columns: 1fr;
+    gap: 1em;
+    margin-inline: auto;
+  }
 }

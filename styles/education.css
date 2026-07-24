@@ -4,7 +4,7 @@
 }
 
 .formation ul {
-  display: flex;
+  display: grid;
   gap: 2em;
   justify-content: center;
 }
